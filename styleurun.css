@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./assets/background/makesumo-_X15wtLFLh4-unsplash.jpg); 
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+
+.urun{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.urun1
+
+{
+   
+    width: 45%;
+    height: auto;
+     
+}
+.urun1 img
+{ border: 6px solid white;
+    margin: 2%;
+    width: 100%;
+    height: auto;
+     
+}
+.urun2
+{
+    border: 6px solid  red;
+    width: 25%;height: auto;
+    margin: 5%;
+}
+.urun2 img
+{
+    
+    width: 25%;height: auto;
+}
+.btn
+{
+    border: 6px solid purple;
+    width: 15%;
+    background-image: linear-gradient(to right,rgb(236, 62, 252),rgb(249, 195, 255));
+
+}
