@@ -9,57 +9,24 @@ body{
     background-repeat: none;
     background-position: center;
     background-size: cover;
-}
-
-.urun{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-   
-}
-.urun1
-
-{
-   
-    width: 45%;
-    height: auto;
-     
-}
-.urun1 img
-{ border: 6px solid white;
-    margin: 2%;
-    width: 100%;
-    height: auto;
-     
-}
-.urun2
-{
-    border: 6px solid  red;
-    width: 25%;height: auto;
-    margin: 5%;
-}
-.urun2 img
-{
     
-    width: 25%;height: auto;
 }
-.btn
-{
-    justify-content: center;
-align-items: center;
-    border: 6px solid purple;
-    width: 15%;
-    background-image: linear-gradient(to right,rgb(236, 62, 252),rgb(249, 195, 255));
+ 
+.container{
+    margin: 1%;
+   display: grid;
+  gap: 15px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    height: 95vh;
+}
+.container div{
+    border: 2px solid red;}
 
-} 
-.card{ text-align: center;}
-.card img{border: 6px solid purple;margin: 2%;  
+#product{
+    grid-column-start: 1; grid-row-end: 8;
+    grid-column-end: 1; grid-row-start: 1;  
+
 }
-.cards-container img{
-    padding: 30px;
-    border-radius:40px;
-    border-top-style: outset;
-    border-bottom-style: outset;
-    border-color: hotpink;
-}
+
+#first-pic{height: 100%; width: 100%; }
