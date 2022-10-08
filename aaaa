@@ -1,0 +1,23 @@
+<h5 class="card-title">Üye Ol</h5>
+                      <p class="card-text">Farmasi'nin yeniliklerle dolu dunyasini kesfet! Birbirinden guzel paketler essiz firsatlarla seni bekliyor.</p>
+                      <a href="#sectionContact" class="btn btn-dark" >Üye olmak için tıkla</a>
+
+                      
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./assets/images/pexels-ds-stories-7256120.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Hemen Başvur</h5>
+                      <p class="card-text">Yeni uyelerimize ozel fiyatlar birbirinden guzel paketlerle seni bekliyor. Asagidaki link'e tikla ve bu firsati kacirma.</p>
+                      <a href="#" class="btn btn-dark">Başvurmak için tıkla</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./assets/images/pexels-ron-lach-8776804.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Biz sizi arayalım</h5>
+                      <p class="card-text">Dilediginiz paketi secin. Biz sizi arayalim</p>
+                      <a href="#" class="btn btn-dark">Sizi aramamız için tıkla</a>
+                    </div>
+                  </div>

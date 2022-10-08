@@ -5,13 +5,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+html { position: sticky;overflow-x: hidden; }
 
 body{
     background-image: url(./assets/background/makesumo-_X15wtLFLh4-unsplash.jpg); 
     background-repeat: none;
     background-position: center;
     background-size: cover;
-
 }
 .btn{
     background-color: transparent;
@@ -22,7 +22,7 @@ body{
 
 
 /* Navigation bar styles */
-
+.nav-bar{position: sticky; overflow-x: hidden;}
 .nav-bar-logo{
     width: 40%;
 }
@@ -123,13 +123,36 @@ ul{
     border-color: hotpink;
 }
 
+/* Carousel */
+.carousel-container{
+    width: 40%;  
+}
+
+
+.carousel img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    opacity: 0.8;
+    
+}
+
+
 /* form */
+
+.container-form-carousel{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 
 .form-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 40%;
+    height: 100%;
     margin: 30px auto;
     padding: 12px;
     background-image:  linear-gradient(
@@ -142,6 +165,7 @@ ul{
     background-position: center;
     background-size: cover;
 }
+
 .form-container form input{
     background: transparent;
 }
@@ -151,7 +175,10 @@ ul{
 
 .form-right{
     width: 40%;
-    display: flex;
     color: rgb(199, 147, 186);     
 }
 
+
+
+/* Footer */
+.footer{background-color: black; color: aqua;}
