@@ -1,4 +1,4 @@
-function uyeKarsilama() {
+function uyeKarsilama(data) {
     event.preventDefault();
-    alert("Farmasi'nin firsatlarla dolu dunyasina hosgeldin.")
+    Alert("Farmasi'nin firsatlarla dolu dunyasina hosgeldin.")
 }

@@ -79,6 +79,8 @@ body{
     border: 1px solid white;
     border-radius: 20px;
     box-shadow: 5px 10px 18px rgb(194, 100, 116); position:relative;
+    filter: saturate(2) ;
+    
 }
 /* .catalog-brochure img:hover{
      
@@ -255,7 +257,7 @@ ul{
 .footer-clean {
     padding:50px 0;
     background-color:rgb(0, 0, 0);
-    color:#4b4c4d;
+    color:#fdfdfd;
   }
   
   .footer-clean h3 {
@@ -338,23 +340,8 @@ ul{
     opacity:0.6;
   }
   
-.footer{ background-image: url(.assets/background/makesumo-_X15wtLFLh4-unsplash.jpg) ;
-    display: grid;
-       margin-top: 5%;
-       margin-bottom: 1%;
-grid-template-columns: repeat(4,1fr);
-grid-template-rows: repeat(3,1fr);
-}
-#loggo{grid-row-start: 1; grid-row-end:4;
-grid-column-start: 4; grid-column-end:5 ;}
-.footer a{color:antiquewhite}
-.footer a:visited{color: purple;}
-/* v */
-.footerfoot{
-    width: 100%;
-    height: 50px;
-    background-color: black;
-}
+ 
+ 
   @media screen and (max-width: 768px)  {#caro { display: none;  } .catalog-container{display: flex; flex-direction: column;} .catalog-brochure{height: 100%; width: 100%;}.catalog-brochure img{
     width: 100%;
     height: 100%;
