@@ -22,12 +22,12 @@ body{
 
 
 /* Navigation bar styles */
-
+.d-flex{}
 .nav-bar-logo{
     width: 40%;
 }
 .nav-bar-links{
-    width: 80%;
+    width: 80%;margin-left: 6.5%;
 }
 .nav-bar-social{
     width: 20%;
@@ -52,6 +52,12 @@ body{
     font-size: 1.2rem;
 }
 
+.nav-bar-social img:hover{
+    box-shadow: 
+              0 0 10px 5px #fff,
+              0 0 15px 10px #ff1493;
+}
+
 /* Catalogs highlights and buttons */
 
 .catalog-container{
@@ -61,7 +67,9 @@ body{
     margin-top: 20px;
 }
 .catalog-container button{
-    margin-top: 20px;
+    margin-top: 30px;
+    
+    
 }
 .catalog-brochure{
     display: flex;
@@ -79,7 +87,7 @@ body{
     border: 1px solid white;
     border-radius: 20px;
     box-shadow: 5px 10px 18px rgb(194, 100, 116); position:relative;
-    filter: saturate(2) ;
+    filter: saturate(1) ;
     
 }
 /* .catalog-brochure img:hover{
@@ -251,7 +259,7 @@ ul{
     height: calc(100% + 27px);
 }
 
-.img-fluid{width: 100%;}
+#imgc {width:33%;  }
 
 /* Footer */
 .footer-clean {
