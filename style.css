@@ -335,7 +335,9 @@ ul{
     }
   }
   
-  @media (max-width:767px) {
+  @media (max-width:767px) { .form-container{width: 200%;}
+    .text-center{  }
+    .mb-3{  }
     .footer-clean .item.social > a {
       margin-top:10px;
     }
